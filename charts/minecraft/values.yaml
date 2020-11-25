@@ -38,6 +38,7 @@ readinessProbe:
   failureThreshold: 10
   successThreshold: 1
   timeoutSeconds: 1
+
 minecraftServer:
   # This must be overridden, since we can't accept this for the user.
   eula: "TRUE"
@@ -128,7 +129,7 @@ minecraftServer:
   # Options like -X that need to proceed general JVM options
   jvmXXOpts: ""
   serviceAnnotations: {}
-  serviceType: ClusterIP
+  serviceType: LoadBalancer
   ## Set the port used if the serviceType is NodePort
   # nodePort:
   loadBalancerIP:
