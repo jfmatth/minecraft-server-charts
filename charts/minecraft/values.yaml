@@ -8,7 +8,7 @@ imagePullSecret: ""
 ##
 resources:
   requests:
-    memory: 512Mi
+    memory: 1024Mi
     cpu: 500m
 
 # upgrade strategy type (e.g. Recreate or RollingUpdate)
@@ -40,7 +40,7 @@ readinessProbe:
   timeoutSeconds: 1
 minecraftServer:
   # This must be overridden, since we can't accept this for the user.
-  eula: "FALSE"
+  eula: "TRUE"
   # One of: LATEST, SNAPSHOT, or a specific version (ie: "1.7.9").
   version: "LATEST"
   # This can be one of "VANILLA", "FORGE", "SPIGOT", "BUKKIT", "PAPER", "FTBA", "SPONGEVANILLA"
@@ -169,7 +169,7 @@ persistence:
   # storageClass: "-"
   dataDir:
     # Set this to false if you don't care to persist state between restarts.
-    enabled: false
+    enabled: true
     # existingClaim: nil
     Size: 1Gi
 
