@@ -55,7 +55,7 @@ minecraftServer:
   # If type is set to BUKKIT, this sets the URL to download the Bukkit package
   bukkitDownloadUrl:
   # If type is set to SPIGOT, this sets the URL to download the Spigot package
-  spigotDownloadUrl:
+  spigotDownloadUrl: https://cdn.getbukkit.org/spigot/spigot-1.16.4.jar
   # If type is set to PAPER, this sets the URL to download the PaperSpigot package
   paperDownloadUrl:
   # If type is set to FTB, this sets the server mod to run. You can also provide the URL to download the FTB package
