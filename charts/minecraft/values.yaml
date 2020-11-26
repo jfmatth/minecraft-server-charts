@@ -72,9 +72,9 @@ minecraftServer:
   # One of: peaceful, easy, normal, and hard
   difficulty: easy
   # A comma-separated list of player names to whitelist.
-  whitelist:
+  whitelist: Khujon,ttvPowShredder_,t0mt0minator
   # A comma-separated list of player names who should be admins.
-  ops: Khujon
+  ops: Khujon,ttvPowShredder_,t0mt0minator
   # A server icon URL for server listings. Auto-scaled and transcoded.
   icon:
   # Max connected players.
