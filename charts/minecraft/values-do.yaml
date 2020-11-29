@@ -76,7 +76,7 @@ minecraftServer:
   # A comma-separated list of player names to whitelist.
   whitelist: true
   # A comma-separated list of player names who should be admins.
-  ops: Khujon,ttvPowShredder_,t0mt0minator
+  ops: Khujon,DonaldJamesTrump,t0mt0minator
   # A server icon URL for server listings. Auto-scaled and transcoded.
   icon:
   # Max connected players.
