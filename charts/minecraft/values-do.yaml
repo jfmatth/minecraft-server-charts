@@ -74,7 +74,7 @@ minecraftServer:
   # One of: peaceful, easy, normal, and hard
   difficulty: easy
   # A comma-separated list of player names to whitelist.
-  whitelist: true
+  whitelist: Khujon,DonaldJamesTrump,t0mt0minator
   # A comma-separated list of player names who should be admins.
   ops: Khujon,DonaldJamesTrump,t0mt0minator
   # A server icon URL for server listings. Auto-scaled and transcoded.
